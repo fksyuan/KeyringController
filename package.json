@@ -1,7 +1,7 @@
 {
   "name": "@fksyuan/eth-keyring-controller",
   "version": "6.1.0",
-  "description": "A module for managing various keyrings of Ethereum accounts, encrypting them, and using them.",
+  "description": "A module for managing various keyrings of PlatON accounts, encrypting them, and using them.",
   "main": "index.js",
   "scripts": {
     "test": "mocha --timeout 10000 --require test/helper.js test/index.js",
@@ -13,8 +13,8 @@
     "url": "git+ssh://git@github.com/fksyuan/KeyringController.git"
   },
   "keywords": [
-    "ethereum",
-    "metamask",
+    "platon",
+    "samurai",
     "accounts",
     "keys"
   ],
@@ -44,9 +44,9 @@
     "bluebird": "^3.5.0",
     "browser-passworder": "^2.0.3",
     "@fksyuan/eth-hd-keyring": "^3.5.0",
-    "@fksyuan/eth-sig-util": "^1.4.0",
-    "@fksyuan/eth-simple-keyring": "^3.5.0",
-    "@fksyuan/ethereumjs-util": "^5.1.2",
+    "@fksyuan/eth-sig-util": "^2.5.3",
+    "@fksyuan/eth-simple-keyring": "^4.0.0",
+    "@fksyuan/ethereumjs-util": "^5.2.0",
     "loglevel": "^1.5.0",
     "obs-store": "^4.0.3"
   },
